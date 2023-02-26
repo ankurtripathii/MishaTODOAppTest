@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "584171821495",
+    "firebase_url": "https://todo-app-mishait-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "todo-app-mishait",
+    "storage_bucket": "todo-app-mishait.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584171821495:android:cad639087c593a6a3bf032",
+        "android_client_info": {
+          "package_name": "com.anksys.mishatodoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584171821495-ap84uodqnvui7l42qdk7q5ae1fjsj18f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anksys.mishatodoapp",
+            "certificate_hash": "26f0690b0e5e7fc9ab5450342b85d283182af37a"
+          }
+        },
+        {
+          "client_id": "584171821495-8roe5rmhffgkq334rveel9eagaq37h63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4bomoiXM4KfXlv4mVzpUxwQRzZOTbaqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584171821495-8roe5rmhffgkq334rveel9eagaq37h63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584171821495:android:f5fadd4a6f260c483bf032",
+        "android_client_info": {
+          "package_name": "com.anksys.mishatodoapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584171821495-8roe5rmhffgkq334rveel9eagaq37h63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4bomoiXM4KfXlv4mVzpUxwQRzZOTbaqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584171821495-8roe5rmhffgkq334rveel9eagaq37h63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584171821495:android:a033603ad4649bfb3bf032",
+        "android_client_info": {
+          "package_name": "com.anksys.todomisha_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584171821495-8roe5rmhffgkq334rveel9eagaq37h63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4bomoiXM4KfXlv4mVzpUxwQRzZOTbaqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584171821495-8roe5rmhffgkq334rveel9eagaq37h63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
