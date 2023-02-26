@@ -9,12 +9,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:context="com.anksys.mishatodoapptest.activity.MainActivity">
+        tools:context="com.anksys.mishatodoapp.activity.MainActivity">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:orientation="horizontal">
+
             <EditText
                 android:id="@+id/editText_todo_item"
                 android:layout_width="match_parent"
@@ -22,7 +24,71 @@
                 android:layout_alignParentStart="true"
                 android:hint="Write your TODO Title"
                 android:inputType="textPersonName" />
+
+
         </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText_todo_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="2dp"
+                android:scrollbarStyle="insideInset"
+                android:lines="5"
+                android:hint="Write your TODO Desciption"
+                android:inputType="textMultiLine" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:gravity="center"
+                android:id="@+id/BOLD_ITALIC"
+                android:layout_margin="4dp"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOLD ITALIC" />
+            <Button
+                android:gravity="center"
+                android:id="@+id/BOLD"
+                android:textSize="12sp"
+                android:layout_margin="4dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOLD" />
+
+            <Button
+                android:gravity="center"
+                android:id="@+id/ITALIC"
+                android:textSize="12sp"
+                android:layout_margin="4dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ITALIC" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button_addimage"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Select And Upload Image" />
         <Button
             android:id="@+id/button_add_todo"
             android:gravity="center"

@@ -1,11 +1,5 @@
-package com.anksys.mishatodoapp.model
-
-import android.net.Uri
-import java.text.SimpleDateFormat
-import java.util.*
-
-
-data class ToDoItem (var id:String="" , var title:String="", var status:Boolean=false, var timestamp:String=""){
+package com.anksys.mishatodoapptest.model
+data class ToDoItem (var id:String="" , var title:String="", var status:Boolean=false, var desc:String="",var timestamp:String="", var imgUri: String){
 
     public fun statusChanged(){
         status=!status
